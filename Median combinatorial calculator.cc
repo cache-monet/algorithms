@@ -14,7 +14,7 @@ int main ()
 {
   int X;
   cin >> X;
-  for (int i = 2; i < X - 1; i++)
+  for (int i = 2; i < X; i++)
     {
       cout << (X - i) * (i - 1);
       printf ("x^%d ", i);
